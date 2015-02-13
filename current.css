@@ -1,0 +1,216 @@
+/*
+  This applies a light CSS reset to all elements on the page.
+  It sets the font for everything to the custom font linked to
+  in the page header as well.
+*/
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: ff-tisa-web-pro, serif;
+}
+
+/**********************
+ HEADER
+**********************/
+
+.logo-image {
+	width: 90px;
+}
+
+.header {
+	background-color: rgb(57, 71, 77);
+	padding-right: 10%;
+	padding-left: 10%;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+.header-link {
+	text-decoration: none;
+	padding: 10px;
+	padding-left: 5px;
+	color: white;
+}
+
+.header-links-left {
+	display: inline-block;
+	position: absolute;
+	text-align: left;
+	text-transform:	uppercase;
+	font-size: 17px;
+	font-weight: normal;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 38px;
+}
+
+.a.header-links-left{
+
+}
+
+.header-links-right {
+	display: inline-block;
+	position: absolute;
+	font-size: 17px;
+	color: white;
+	text-transform:	uppercase;
+	padding-top: 38px;
+	margin-left: 45%;	
+}
+
+a.header-link.header-gray-link {
+	color: gray;
+	font-weight: normal;
+}
+
+a.header-link.header-button-link {
+	text-transform:	uppercase;
+	padding: 10px;
+	border: solid #6fbbb7;
+	background-color: #6fbbb7;
+	border-radius: 5px;
+	font-size: 18px;
+}
+
+a:hover {
+	border-bottom: solid;
+}
+
+.header-button-link {
+
+
+}
+/**********************
+ SUBHEADER
+**********************/
+
+.subheader {
+	background-color: rgb(206, 131, 44);
+	color:	rgb(255, 255, 255);
+	padding-right: 10%;
+	padding-left: 10%;
+
+}
+
+.course-title {
+	font-size: 60px;
+	color:	rgb(255, 255, 255);
+	padding-top: 50px;
+	font-weight: 900;
+	border-bottom: solid #e4bf97;
+	padding-bottom: 1%;	
+}
+
+.subheader-link {
+	color:	rgb(255, 255, 255);
+	text-decoration: none;
+	padding-right: 15px;
+	font-size: 18px;
+	font-weight: bolder;
+}
+
+.subheader-links {
+	padding-top: 23px;
+	padding-bottom: 15px;
+}
+
+
+
+/**********************
+BODY
+**********************/
+
+
+.body {
+	display: block;
+	margin:	10%;
+	width: 100%;
+}
+
+/**********************
+CONTENT
+**********************/
+
+.content {
+	padding-right: 10%;
+	padding-left: 10%;
+	padding-bottom: 1%;
+
+}
+
+.tagline{
+	font-size: 28px;
+	color: rgb(206, 131, 44);
+	font-style: italic;
+	font-weight: 700;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.image-right {
+	float: right;
+}
+
+.mason {
+	width: 360px;
+	padding-bottom: 2px;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-left: 42px;
+	margin-right: 25px;
+	height: 217px;
+}
+
+.body-content {
+	padding-top: 10px;
+	line-height: 1.6;
+	font-size: 18px;
+}
+
+.key-points {
+	display: block;
+	background-color: rgb(227, 231, 233);
+	padding-left: 10%;
+	padding-right: 10%;
+	margin-left: 2%
+	margin-right: 2%;
+	margin-top: 20px;
+	padding-top: 4%;
+}
+
+.key-item {
+	position: relative;
+	display: inline-block;
+	padding-bottom: 30px;
+	padding-left: 25px;
+	width: 31.3%;
+
+}
+
+.key-image {
+	position: relative;
+	padding-left: 30%;
+	padding-right: 20%;
+	padding-bottom: 10px;
+}
+
+.key-text {
+	text-align: center;
+	line-height: 1.6;
+	margin: 20px;
+}
+
+
+.logo-image {
+	width: 95px;
+	height; 95px;
+}
+
+
+.col-md-4 {
+	display: inline-block;
+}
+
+
